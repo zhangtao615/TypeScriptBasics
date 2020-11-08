@@ -1,5 +1,11 @@
-## TypeScript学习
+## TypeScript 学习
 
-### 什么是TypeScript
+### 什么是 TypeScript
 
-  TypeScript是JavaScript的超集，相对于JavaScript，它更多的属性功能
+TypeScript 是 JavaScript 的超集，相对于 JavaScript，它更多的属性功能
+
+### 为什么要学 TypeScript
+
+TypeScript 在 12 年的时候才出来，但是在我刚学前端的时候 ts 听说的还不是很多，就是从去年（2019）开始，听到的越来越多，而且一些公司里面的一部分项目都开始用
+ts 来写。在未来 ts 可能会在项目中有着更重要的位置，使用的范围可能会越来越广，但是如果要代替 js，可能不太可能。但是对于一个前端来说，ts 肯定是一个必备的技能，
+在未来的项目肯定会用到的。

@@ -19,8 +19,8 @@ class Teacher extends Person {
 
 const person3 = new Person();
 const teacher = new Teacher();
-console.log(teacher.getName());
-console.log(teacher.getTeacherName());
+// console.log(teacher.getName());
+// console.log(teacher.getTeacherName());
 
 //访问类型 public private protected
 
@@ -40,3 +40,32 @@ class Cat extends Animal {
     this.name;
   }
 }
+
+// constructor
+class Person2 {
+  //传统写法
+  // public name: string
+  // constructor(name: string) {
+  //   this.name = name
+  // }
+  //简化写法
+  constructor (public name: string) {}
+}
+
+const person = new Person()
+person.name = 'Tom'
+console.log(person.name) // Tom
+
+class Person3 {
+  constructor (public name: string) {}
+}
+
+class Teacher3 extends Person3 {
+  constructor(public age: number) {
+    // 当子类继承父类时，需要在constructor里面使用super来调用父类的构造函数，并传入对应的参数
+    super('Tom')
+  }
+}
+const teacher3 = new Teacher3(28)
+console.log(teacher3.age) // 28
+console.log(teacher3.name) // Tom

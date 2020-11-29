@@ -1,4 +1,4 @@
-function tsDemo(data: { x: number; y: number }) {
+function tsDemo(data: { x: number; y: number }): number {
   console.log(123);
   return Math.sqrt(data.x ** 2 + data.y ** 2);
 }
